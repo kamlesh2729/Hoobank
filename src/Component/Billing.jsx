@@ -7,12 +7,12 @@ import Anderoid from '../assets/google.svg'
 const Billing = () => {
   return (
     <>
-      <section className="w-[1170px] h-[383px] flex text-white">
-        <main className="w-2/4">
-          <img src={Bill} alt="card-img" className="w-full h-[383px]" />
+      <section className="w-full h-auto Lg-l:h-[383px] Lg-l:px-4 flex flex-col Lg-l:flex Lg-l:flex-row text-white">
+        <main className="w-full Lg-l:w-2/4">
+          <img src={Bill} alt="card-img" className="w-full Lg-l:w-full h-[383px]" />
         </main>
 
-        <main className="w-2/4">
+        <main className="w-full Lg-l:w-2/4">
           <h2 className=" text-[48px] leading-[76.8px] font-semibold">
             Easily control your billing & invoicing.
           </h2>

@@ -7,8 +7,8 @@ import Send from '../assets/Send.svg';
 const Business = () => {
   return (
     <>
-      <section className="w-[1170px] h-[383px] flex text-white">
-        <main className="w-2/4">
+      <section className="w-full h-auto Lg-l:h-[383px] px-4 flex flex-col Lg-l:flex Lg-l:flex-row text-white">
+        <main className="w-full Lg-l:w-2/4">
           <h2 className=" text-[48px] leading-[76.8px] font-semibold">
             You do the business, we’ll handle the money.
           </h2>
@@ -21,8 +21,8 @@ const Business = () => {
             Get Started
           </button>
         </main>
-        <main className="w-2/4">
-          <article className="w-[470px] h-[115px] rounded-2xl flex justify-center items-center">
+        <main className="w-full Lg-l:w-2/4">
+          <article className="w-full Lg-l:w-[470px] h-[115px] rounded-2xl flex justify-center items-center">
             <div className="w-[64px] h-[64px]">
               <img
                 src={Star}
@@ -34,13 +34,13 @@ const Business = () => {
               <h2 className="text-[18px] leading-[23.4px] font-semibold">
                 Rewards
               </h2>
-              <p className='text-[16px] leading-[24px] font-normal'>
+              <p className="text-[16px] leading-[24px] font-normal">
                 The best credit cards offer some tantalizing combinations of
                 promotions and prizes
               </p>
             </div>
           </article>
-          <article className="w-[470px] h-[115px] rounded-2xl flex justify-center items-center bg-gradient-to-tl from-[#14101D] from-90% to-[#FFFFFF]">
+          <article className="w-full Lg-l:w-[470px] h-[115px] rounded-2xl flex justify-center items-center bg-gradient-to-tl from-[#14101D] from-90% to-[#FFFFFF]">
             <div className="w-[64px] h-[64px]">
               <img
                 src={Shield}
@@ -52,13 +52,13 @@ const Business = () => {
               <h2 className="text-[18px] leading-[23.4px] font-semibold">
                 100% Secured
               </h2>
-              <p className='text-[16px] leading-[24px] font-normal'>
+              <p className="text-[16px] leading-[24px] font-normal">
                 We take proactive steps make sure your information and
                 transactions are secure.
               </p>
             </div>
           </article>
-          <article className="w-[470px] h-[115px] rounded-2xl flex justify-center items-center">
+          <article className="w-full Lg-l:w-[470px] h-[115px] rounded-2xl flex justify-center items-center">
             <div className="w-[64px] h-[64px]">
               <img
                 src={Send}
@@ -70,7 +70,7 @@ const Business = () => {
               <h2 className="text-[18px] leading-[23.4px] font-semibold">
                 Balance Transfer
               </h2>
-              <p className='text-[16px] leading-[24px] font-normal'>
+              <p className="text-[16px] leading-[24px] font-normal">
                 A balance transfer credit card can save you a lot of money in
                 interest charges.
               </p>

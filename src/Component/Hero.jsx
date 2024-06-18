@@ -5,8 +5,8 @@ import Robohand from '../assets/robot.png'
 const Hero = () => {
   return (
     <>
-      <section className=" text-white h-[674px] w-full flex">
-        <article className="h-[674px] w-[669px] py-4 px-4">
+      <section className="w-full h-auto flex flex-col mt-1 text-white Lg-l:flex Lg-l:flex-row Lg-l:h-[674px]">
+        <article className="h-[674px] w-full Lg-l:w-1/2 py-4 px-4">
           <p className="font-normal text-[18px]">
             20% DISCOUNT FOR 1 MONTH ACCOUNT
           </p>
@@ -23,8 +23,8 @@ const Hero = () => {
             annual fees.
           </p>
         </article>
-        <article className="h-[674px] w-[669px]">
-          <img src={Robohand} alt="robotic-hand" className="h-[574px] w-[600px]" />
+        <article className="h-[674px] w-full pt-2 Lg-l:w-1/2">
+          <img src={Robohand} alt="robotic-hand" className="h-[574px] w-full" />
         </article>
       </section>
     </>

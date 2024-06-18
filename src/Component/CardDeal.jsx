@@ -5,8 +5,8 @@ import Card from '../assets/card.png'
 const CardDeal = () => {
   return (
     <>
-      <section className="w-[1170px] h-[383px] flex text-white">
-        <main className="w-2/4">
+      <section className="w-full h-auto Lg-l:h-[383px] px-4 flex flex-col Lg-l:flex Lg-l:flex-row text-white">
+        <main className="w-full Lg-l:w-2/4">
           <h2 className=" text-[48px] leading-[76.8px] font-semibold">
             Find a better card deal in few easy steps.
           </h2>
@@ -18,8 +18,8 @@ const CardDeal = () => {
             Get Started
           </button>
         </main>
-        <main className="w-2/4">
-          <img src={Card} alt="card-img" className='w-full h-[383px]' />
+        <main className="w-full Lg-l:w-2/4">
+          <img src={Card} alt="card-img" className="w-full h-[383px]" />
         </main>
       </section>
     </>
